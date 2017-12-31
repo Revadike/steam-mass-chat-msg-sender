@@ -15,7 +15,6 @@ var credentials = {
 }
 
 const SteamUser = require("steam-user"),
-    fs = require("fs"),
     logger = require("datetime-logger"),
     client = new SteamUser();
 
